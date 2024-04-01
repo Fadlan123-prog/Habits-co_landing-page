@@ -345,6 +345,464 @@ span.inner{
 }
 
 .sec__footer img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 40px;
+}
+
+.discount__price{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.original__text{
+    font-size: 12px;
+}
+
+.material__section{
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width:1920px) {
+
+}
+
+@media screen and (max-width:600px) and (min-width:300px) {
+    .navbar .logo img{
+        width: 90px;
+        height: auto;
+    }
+    .tagline{
+        font-size: 13px;
+    }
+    .image-circle{
+        width: 39%;
+        top:100px;
+        margin-left: -7px;
+    }
+
+    .material__content p:first-child{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .material__content p{
+        font-size: 8px;
+    }
+
+    .row__disable{
+        display: none;
+    }
+
+    .material__section{
+        background-position: center;
+    }
+
+    .material__content .centered__right img{
+        width: 25px;
+        height: auto;
+    }
+
+    .centered__shop{
+        margin: 10px 0;
+    }
+    .btn__size{
+        width: 100%;
+        height: 25px;
+        font-size: 6px;
+    }
+
+    .w-70{
+        width: 100%;
+    }
+
+    /* .btn__size .col-6{
+        font-size: 13px;
+    } */
+
+    .display__gallery .display__title{
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .display__gallery p{
+        font-size: 12px;
+        margin-top: 2rem;
+    }
+
+    .my-6{
+        margin-top: 7rem !important;
+        margin-bottom: 7rem !important;
+    }
+
+    .shop__now{
+        width: 100%;
+    }
+
+    .material__shop{
+        font-size: 18px;
+    }
+
+    .material__desc{
+        font-size: 8px;
+    }
+
+    .center__logo img{
+        width: 24px;
+        height: auto;
+    }
+
+    .discount__price h3{
+        text-align: center;
+    }
+
+    .discount__through{
+        font-size: 25px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+    span .inner{
+        font-size: 36px;
+    }
+
+    span .outer{
+        font-size: 36px;
+    }
+
+    .up__to{
+        font-size: 26px;
+    }
+
+    .real__price{
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .discount__shop{
+        font-size: 22px;
+    }
+
+    .original__text{
+        font-size: 10px;
+    }
+
+    .mt-8{
+        margin-top: 3rem !important;
+    }
+
+    .gap__gallery{
+        gap: 30px 0;
+    }
+
+    .small__display{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .desc__title{
+        font-size: 18px;
+    }
+
+    .small__font{
+        font-size: 12px;
+    }
+
+    .font__8p{
+        font-size: 8px;
+    }
+
+    .tagline__footer{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .call__me{
+        font-size: 12px;
+    }
+
+    .social__media{
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .social__logo{
+        width: 22px;
+        height: auto;
+    }
+
+    .gap__footer{
+        justify-items: center;
+    }
+
+    .ecommerce__footer{
+        width: 32px;
+        height: auto;
+    }
+
+    .align-center{
+        display: flex;
+        align-items: center;
+    }
+
+    .gap__footer .mt-3{
+        margin-top: 10px !important;
+    }
+
+    .sec__footer h1{
+        font-size: 12px;
+    }
+
+    .promotion{
+        text-align: center;
+    }
+
+    .gallery{
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .sec__footer img {
+        width: auto;
+        height: 18px;
+    }
+
+    .sec__footer span {
+        font-size: 7px;
+        margin: 0 0 0 8px;
+    }
+
+    .sec__footer .d-flex{
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .button__align__center{
+        margin: 7% 0;
+    }
+
+    .discount__price .small__display .centered{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:601px){
+    .tagline{
+        font-size: 24px;
+    }
+    .image-circle{
+        width: 40%;
+        top: 160px;
+        margin-left: -15px;
+    }
+
+    .material__content .centered__right img {
+        width: 32px;
+        height: auto;
+    }
+
+    .material__content p:first-child {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .material__content p{
+        font-size: 12px;
+    }
+
+    .btn__size {
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .centered__shop{
+        margin: 0;
+    }
+
+    .display__gallery .display__title{
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .display__gallery p{
+        margin-top: 1rem;
+        font-size: 12px;
+    }
+
+    .material__shop{
+        font-size: 24px;
+    }
+
+    .material__desc {
+        font-size: 12px;
+    }
+
+    .center__logo img{
+        width: 32px;
+        height: auto;
+    }
+
+    span .inner{
+        font-size: 42px;
+    }
+
+    span .outer{
+        font-size: 42px;
+    }
+
+    .up__to{
+        font-size: 28px;
+    }
+
+    .percent__discount{
+        font-size: 42px;
+    }
+
+    .discount__shop{
+        font-size: 24px;
+    }
+
+    .real__price{
+        font-size: 56px;
+    }
+
+    .original__text {
+        font-size: 10px;
+    }
+
+    .mt-8{
+        margin-top: 2rem !important;
+    }
+
+    .clothes__gallery img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        gap: 22px;
+        display: flex;
+        column-gap: 21px;
+    }
+
+    .gap__gallery{
+        gap: 60px 0;
+    }
+
+    .gap__contact{
+        gap: 40px 0;
+    }
+
+    .font-26{
+        font-size: 26px !important;
+    }
+
+    .sec__footer img{
+        height: 28px;
+    }
+
+    .sec__footer span{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:769px){
+    .tagline{
+        font-size: 28px;
+    }
+
+    .image-circle{
+        width: 41%;
+        margin-left: -27px;
+    }
+
+    .material__section{
+        margin-top: 0 !important;
+    }
+
+    .material__content p:first-child{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .material__content p{
+        font-size: 14px;
+    }
+
+    .material__content .centered__right img{
+        width: 48px;
+    }
+
+    .btn__size{
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .material__shop{
+        font-size: 32px;
+    }
+
+    span .inner , span .outer{
+        font-size: 36px;
+    }
+
+    .up__to{
+        font-size: 26px;
+    }
+
+    .percent__discount{
+        font-size: 42px;
+    }
+
+    .real__price{
+        font-size: 54px;
+    }
+
+    .discount__shop{
+        font-size: 28px;
+    }
+
+    .original__text{
+        font-size: 12px;
+    }
+
+    .desc__title{
+        font-size: 20px;
+    }
+
+    .mt-8{
+        margin-top: 2rem !important;
+    }
+
+    .font-24{
+        font-size: 24px !important;
+    }
+
+    .call__me{
+        font-size: 18px;
+    }
+
+    .social__media{
+        font-size: 16px;
+    }
+
+    .social__logo{
+        width: auto;
+        height: 26px;
+    }
+
+    .ecommerce__footer{
+        width: 45px;
+    }
+
+    .font-26{
+        font-size: 26px;
+    }
 }
