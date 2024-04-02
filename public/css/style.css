@@ -806,3 +806,9 @@ span.inner{
         font-size: 26px;
     }
 }
+
+@media screen and (min-width:1029px){
+    .image-circle{
+        width: 40%;
+    }
+}
