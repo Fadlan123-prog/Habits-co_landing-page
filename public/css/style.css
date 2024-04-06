@@ -362,31 +362,101 @@ span.inner{
     margin-top: 0 !important;
 }
 
-@media screen and (max-width:1920px) {
-
+.display__video{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: -2px;
 }
+
+.display__video img{
+    width: auto;
+    height: 130px;
+    position: relative;
+    top: -2px;
+}
+
+iframe{
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.display__countdown li{
+        display: inline-block;
+        font-size: 0.6em;
+        list-style-type: none;
+        padding: 1em;
+        text-transform: uppercase;
+}
+
+.display__countdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.phone__display{
+    display: none;
+}
+
+.why__title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    top: -2px;
+}
+
+.why__title img{
+    width: auto;
+    height: 117px;
+    position: relative;
+    top: -2px;
+}
+
 
 @media screen and (max-width:600px) and (min-width:300px) {
     .navbar .logo img{
         width: 90px;
         height: auto;
     }
+
+    .hero__section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero__section .m-auto{
+        margin: 0;
+        width: 100%;
+    }
+
     .tagline{
-        font-size: 13px;
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
     }
     .image-circle{
-        width: 39%;
-        top:100px;
-        margin-left: -7px;
+        width: 100%;
+        top: 335px;
+        margin-left: -8px;
     }
 
     .material__content p:first-child{
+        text-align: center;
         font-size: 15px;
         line-height: 20px;
     }
 
     .material__content p{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .row__disable{
@@ -395,6 +465,15 @@ span.inner{
 
     .material__section{
         background-position: center;
+    }
+
+    .material__shop {
+        text-align: start !important;
+        margin-top: 0 !important;
+    }
+
+    .desc__shopnow{
+        font-size: 10px !important;
     }
 
     .material__content .centered__right img{
@@ -406,14 +485,42 @@ span.inner{
         margin: 10px 0;
     }
     .btn__size{
-        width: 100%;
+        width: 90%;
         height: 25px;
         font-size: 6px;
     }
 
     .w-70{
         width: 100%;
+        text-align: center;
+        padding: 0 0 0 20px;
     }
+
+    .display__video{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        position: relative;
+        top: -2px;
+    }
+
+    .display__video img{
+        width: auto;
+        height: 117px;
+        position: relative;
+        top: -2px;
+    }
+
+    .phone__display .col-6{
+        background: #0084FF;
+        border-radius: 100px;
+        text-align: center;
+        color: white;
+        padding: 12px;
+        width: -webkit-fill-available;
+        margin: 10px;
+    }
+
 
     /* .btn__size .col-6{
         font-size: 13px;
@@ -486,12 +593,24 @@ span.inner{
         font-size: 22px;
     }
 
+    .display__countdown{
+        text-align: center;
+    }
+
+    .display__countdown li{
+        font-size: 0.7rem;
+    }
+
+    li span{
+        font-size: 1.8rem;
+    }
+
     .original__text{
         font-size: 10px;
     }
 
     .mt-8{
-        margin-top: 3rem !important;
+        margin-top: 2rem !important;
     }
 
     .gap__gallery{
@@ -509,14 +628,16 @@ span.inner{
 
     .desc__title{
         font-size: 18px;
+        text-align: center;
     }
 
     .small__font{
-        font-size: 12px;
+        font-size: 14px;
+        text-align: center;
     }
 
     .font__8p{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .tagline__footer{
@@ -592,6 +713,10 @@ span.inner{
     .discount__price .small__display .centered{
         width: 100%;
     }
+
+    .phone__display{
+        display: block;
+    }
 }
 
 @media screen and (max-width:768px) and (min-width:601px){
@@ -617,6 +742,7 @@ span.inner{
     .material__content p{
         font-size: 12px;
     }
+
 
     .btn__size {
         width: 100%;
@@ -675,8 +801,22 @@ span.inner{
         font-size: 56px;
     }
 
+    .display__countdown li{
+        display: inline-block;
+        font-size: 0.5em;
+        list-style-type: none;
+        padding: 0.2em;
+        text-transform: uppercase;
+    }
+    li span {
+        display: block;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
     .original__text {
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: 400;
     }
 
     .mt-8{
@@ -805,10 +945,43 @@ span.inner{
     .font-26{
         font-size: 26px;
     }
+
+    .display__countdown li {
+        display: inline-block;
+        font-size: 0.5em;
+        list-style-type: none;
+        padding: 0.2em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    li span{
+        font-size: 2.8rem;
+    }
+
 }
 
-@media screen and (min-width:1029px){
+@media screen and (min-width:1029px) and (min-width:1440px){
     .image-circle{
         width: 40%;
+    }
+
+    .display__countdown{
+        font-size: 0.8rem;
+    }
+
+    .display__countdown li{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    li span{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:2560px) {
+    .image-circle{
+        width: 22%;
     }
 }

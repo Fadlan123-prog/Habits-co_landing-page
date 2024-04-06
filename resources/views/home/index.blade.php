@@ -20,9 +20,9 @@
       </nav>
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row hero__section">
                 <div class="col-7 m-auto">
-                    <p class="tagline" data-aos="fade-right">
+                    <p class="tagline" data-aos="fade-up">
                         <span>10 DARI 10</span><br>
                         ORANG SETUJU, OUTFIT DAPAT
                         MERUBAH PENAMPILAN MENJADI
@@ -31,13 +31,20 @@
                 </div>
                 <div class="col-5 m-auto">
                     <div class="img-wrapper">
-                        <img class="image-circle" src="{{asset('assets/images/Ellipse 2.png')}}" alt="circle">
-
-                        <img class="image-model" src="{{asset('assets/images/7A 2.png')}}" alt="model">
-
+                        <img class="image-model" src="{{asset('assets/images/model-1.png')}}" alt="model">
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="display__video">
+               <span>Apa itu<span><img src="{{asset('assets/images/Logo-no-bg.png')}}" alt="">?</span></span>
+            </div>
+
+            <iframe src="https://drive.google.com/file/d/1Eqne0uCDewATPIxIX4RMkhsxW_TcHNx3/preview" width="640" height="480" allow="autoplay"></iframe>
+
         </div>
     </section>
     <section class="material__section my-3">
@@ -49,7 +56,7 @@
 
                     </div>
                     <div class="col-md-7 col-lg-7 col-sm-12">
-                        <div class="material__content" data-aos="fade-left">
+                        <div class="material__content" data-aos="fade-up">
                             <p>100% PREMIUM <span>COTTON COMBED 16S</span> AUSTRALIA COOLBREEZE</p>
 
                             <p>
@@ -64,7 +71,7 @@
                                 <div class="col centered__shop">
                                     <p class="material__shop">SHOP NOW!</p>
 
-                                    <p>Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
+                                    <p class="desc__shopnow">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                                 </div>
                                 <div class="col">
                                     <div class="row row__height">
@@ -101,10 +108,10 @@
                                                 <a href="https://www.tokopedia.com/habitsandco">
                                                     <button type="button" class="btn btn-grey btn__left btn__size">
                                                         <div class="row">
-                                                            <div class="col">
+                                                            <div class="col-6">
                                                                 Tokopedia
                                                             </div>
-                                                            <div class="col btn__right">
+                                                            <div class="col-6 btn__right">
                                                                 <i class="fa-solid fa-arrow-right"></i>
                                                             </div>
                                                         </div>
@@ -127,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-7 col-sm-12 d-flex flex-column justify-content-between">
                         <div class="row w-70">
-                            <span class="display__title" data-aos="fade-left">SEMUA MATA AKAN TERTUJU PADAMU.</span>
+                            <span class="display__title" data-aos="fade-up">SEMUA MATA AKAN TERTUJU PADAMU.</span>
 
                             <p>Dengan design animal, street dan greek menjadi sebuah simbol dari diri anda dan Gaya anda menjadi semakin menarik.
                             </p>
@@ -153,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-5 row__disable" data-aos="fade-left" data-aos-duration="3000">
+                    <div class="col-5 row__disable" data-aos="fade-up" data-aos-duration="3000">
                         <img src="{{asset('assets/images/Picture7.png')}}" alt="">
                     </div>
                 </div>
@@ -162,7 +169,52 @@
     </section>
     <section>
         <div class="container-fluid" data-aos="fade-up">
-            <div class="why__habits">
+            <div class="phone__display">
+                <div class="why__title">
+                    <span>Kenapa<span><img src="{{asset('assets/images/Logo-no-bg.png')}}" alt="">?</span></span>
+                 </div>
+                <div class="row">
+                    <div class="col-6" data-aos="fade-up">
+                        <span>Bahan <span>Premium</span></span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        Material setara dengan brand exclusive
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        <span>
+                            Ketebalan <span>Katun 16S</span>
+                        </span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        <Span>
+                            Teknologi tinggi kain <span>anti panas</span>
+                        </Span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        <span>
+                            Perawatan mudah
+                        </span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        Keren <span>maksimal</span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        <span>
+                            Tidak gatal di pakai
+                        </span>
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        Sangat awet di pakai
+                    </div>
+                    <div class="col-6" data-aos="fade-up">
+                        <span>
+                            Tidak mudah rusak
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="why__habits row__disable">
                 <img src="{{asset('assets/images/Why.png')}}" alt="">
             </div>
         </div>
@@ -175,7 +227,7 @@
 
                     <p class="material__desc">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                 </div>
-                <div class="col" data-aos="fade-left">
+                <div class="col justify-content-center" data-aos="fade-up">
                     <div class="row row__height">
                         <div class="col-5 centered__right">
                             <div class="center__logo">
@@ -211,10 +263,10 @@
                                 <a href="https://www.tokopedia.com/habitsandco">
                                     <button type="button" class="btn btn-grey btn__left btn__size">
                                         <div class="row">
-                                            <div class="col">
+                                            <div class="col-6">
                                                 Tokopedia
                                             </div>
-                                            <div class="col btn__right">
+                                            <div class="col-6 btn__right">
                                                 <i class="fa-solid fa-arrow-right"></i>
                                             </div>
                                         </div>
@@ -235,11 +287,19 @@
                     <h3>Untuk 100 pembeli pertama</h3>
                 </div>
                 <div class="col">
-                    <div class="row py-5" data-aos="fade-left">
+                    <div class="row py-5" data-aos="fade-up">
                         <span class="discount__through">
                             <span class="outer"><span class="inner">Rp. 802,500</span></span><span class="up__to"> up to</span><span class="percent__discount"> 64%</span>
                         </span>
                         <span class="real__price">Rp. 288,900</span>
+                    </div>
+                    <div class="row py-2" data-aos="fade-up">
+                        <ul class="display__countdown">
+                            <li><span id="days">0</span>days</li>
+                            <li><span id="hours">0</span>Hours</li>
+                            <li><span id="minutes">0</span>Minutes</li>
+                            <li><span id="seconds">0</span>Seconds</li>
+                        </ul>
                     </div>
                     <div class="row mt-8" >
                         <div class="col centered__shop" data-aos="fade-right">
@@ -247,7 +307,7 @@
 
                             <p class="original__text">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                         </div>
-                        <div class="col" data-aos="fade-left">
+                        <div class="col justify-content-center" data-aos="fade-up">
                             <div class="row row__height">
                                 <div class="col-5 centered__right">
                                     <div class="center__logo">
@@ -328,7 +388,7 @@
                     <div class="col-12 col-lg-5" data-aos="fade-right">
                         <img class="model__pic" src="{{asset('assets/images/model-desc.png')}}" alt="">
                     </div>
-                    <div class="col-12 col-lg-7 desc__page" data-aos="fade-left">
+                    <div class="col-12 col-lg-7 desc__page" data-aos="fade-up">
                         <div class="row">
                             <h2 class="desc__title">
                                 KAOS OVERSIZE MEWAH 16S DENGAN HARGA GROSIR, SETARA BRAND EXCLUSIVE
@@ -405,13 +465,13 @@
                     <h2 class="font-24">Masih bingung nentuin <span>sizenya</span> ?</h2>
                 </div>
                 <div class="col-lg-3 col-6 gap__footer">
-                    <div class="row" data-aos="fade-left">
+                    <div class="row" data-aos="fade-up">
                         <div class="col call__me">
                              Hubungi kami Yuk
                         </div>
 
                     </div>
-                    <div class="row mt-3" data-aos="fade-left">
+                    <div class="row mt-3" data-aos="fade-up">
 
                             <div class="col-lg-2 col-3">
                                 <a href="https://api.whatsapp.com/send/?phone=6282321217772&text&type=phone_number&app_absent=0">
@@ -423,7 +483,7 @@
                             </div>
 
                     </div>
-                    <div class="row" data-aos="fade-left">
+                    <div class="row" data-aos="fade-up">
 
                             <div class="col-lg-2 col-3">
                                 <a href="https://www.instagram.com/habitsandco.official/">
@@ -436,7 +496,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3 col-6 gap__footer" data-aos="fade-left">
+                <div class="col-lg-3 col-6 gap__footer" data-aos="fade-up">
                     <div class="row">
                         <div class="col call__me">
                              Atau hubungi admin kami
@@ -527,5 +587,49 @@
     <script>
         AOS.init();
     </script>
+
+<script src="{{asset('js/yscountdown.min.js')}}"></script>
+<script>
+
+var daysElement = document.querySelector("#days");
+var hoursElement = document.querySelector("#hours");
+var minutesElement = document.querySelector("#minutes");
+var secondsElement = document.querySelector("#seconds");
+
+// Calculate the target time for the next day
+function getTargetTime() {
+  var now = new Date();
+  var tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1); // Next day
+  return tomorrow.getTime(); // Return time in milliseconds
+}
+
+var targetTime = getTargetTime();
+
+function updateCountdown() {
+  var now = new Date().getTime();
+  var distance = targetTime - now;
+
+  // Time calculations for days, hours, minutes, and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result
+  daysElement.textContent = days.toString().padStart(2, '0');
+  hoursElement.textContent = hours.toString().padStart(2, '0');
+  minutesElement.textContent = minutes.toString().padStart(2, '0');
+  secondsElement.textContent = seconds.toString().padStart(2, '0');
+
+  // If the countdown is finished, reset it
+  if (distance < 1000) {
+    targetTime = getTargetTime(); // Reset target time for the next day
+  }
+}
+
+// Update the countdown every second
+setInterval(updateCountdown, 1000);
+
+</script>
 </body>
 </html>
