@@ -468,26 +468,41 @@ li span {
     }
 
     .material__shop {
-        text-align: start !important;
+        text-align: center !important;
         margin-top: 0 !important;
     }
 
     .desc__shopnow{
-        font-size: 12px !important;
+        font-size: 17px !important;
     }
 
     .material__content .centered__right img{
-        width: 25px;
+        width: 40px;
         height: auto;
     }
 
     .centered__shop{
         margin: 10px 0;
     }
+
+    .centered__right{
+        padding: 0;
+        width: auto;
+        text-align: center;
+    }
+
+    .row__height{
+        height: auto;
+    }
+
     .btn__size{
         width: 90%;
-        height: 30px;
+        height: 40px;
         font-size: 10px;
+    }
+
+    .width__70{
+        width: 70% !important;
     }
 
     .w-70{
@@ -532,12 +547,12 @@ li span {
     } */
 
     .display__gallery .display__title{
-        font-size: 21px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .display__gallery p{
-        font-size: 14px;
+        font-size: 18px;
         margin-top: 2rem;
     }
 
@@ -570,11 +585,11 @@ li span {
     .discount__through{
         font-size: 25px;
         display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     span .inner{
@@ -637,7 +652,7 @@ li span {
     }
 
     .small__font{
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -721,6 +736,38 @@ li span {
 
     .phone__display{
         display: block;
+    }
+
+    .flex__phone{
+        display: flex !important;
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .wd__shopnow{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .shop__now .centered__right img{
+        width: 40px;
+        height: auto;
+    }
+
+    .margin__bottom__8{
+        margin-bottom: 3rem;
+    }
+
+
+    .centered__right img{
+        width: 40px;
+        height: auto;
+    }
+
+    .margin__top__45{
+        margin-top: 45px;
     }
 }
 

@@ -67,13 +67,13 @@
                                 Sehingga membuat kain ini sangat nyaman & adem dipakai di segala cuaca meskipun disaat panas dan terik, bahan tebal dan premium.
                             </p>
 
-                            <div class="row">
-                                <div class="col centered__shop">
+                            <div class="row flex__phone">
+                                <div class="col centered__shop wd__shopnow">
                                     <p class="material__shop">SHOP NOW!</p>
 
                                     <p class="desc__shopnow">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                                 </div>
-                                <div class="col">
+                                <div class="col width__70">
                                     <div class="row row__height">
                                         <div class="col-5 centered__right">
                                             <div class="image-">
@@ -139,7 +139,7 @@
                             <p>Dengan design animal, street dan greek menjadi sebuah simbol dari diri anda dan Gaya anda menjadi semakin menarik.
                             </p>
                         </div>
-                        <div class="row">
+                        <div class="row margin__top__45">
                             <div class="col-4" data-aos="fade-up" data-aos-duration="1000">
                                 <img src="{{asset('assets/images/Picture1.png')}}" alt="">
                             </div>
@@ -221,16 +221,16 @@
     </section>
     <section>
         <div class="container">
-            <div class="row shop__now">
-                <div class="col centered__shop" data-aos="fade-right">
+            <div class="row shop__now flex__phone">
+                <div class="col centered__shop wd__shopnow">
                     <p class="material__shop">SHOP NOW!</p>
 
-                    <p class="material__desc">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
+                    <p class="desc__shopnow">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                 </div>
-                <div class="col justify-content-center" data-aos="fade-up">
+                <div class="col width__70">
                     <div class="row row__height">
                         <div class="col-5 centered__right">
-                            <div class="center__logo">
+                            <div class="image-">
                                 <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                             </div>
                         </div>
@@ -248,13 +248,12 @@
                                         </div>
                                     </button>
                                 </a>
-
                             </div>
                         </div>
                     </div>
                     <div class="row row__height">
                         <div class="col-5 centered__right">
-                            <div class="center__logo">
+                            <div class="">
                                 <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                             </div>
                         </div>
@@ -301,23 +300,23 @@
                             <li><span id="seconds">0</span>Seconds</li>
                         </ul>
                     </div>
-                    <div class="row mt-8" >
-                        <div class="col centered__shop" data-aos="fade-right">
-                            <p class="discount__shop">SHOP NOW!</p>
+                    <div class="row mt-8 margin__bottom__8 flex__phone">
+                        <div class="col centered__shop wd__shopnow">
+                            <p class="material__shop">SHOP NOW!</p>
 
-                            <p class="original__text">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
+                            <p class="desc__shopnow">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                         </div>
-                        <div class="col justify-content-center" data-aos="fade-up">
+                        <div class="col width__70">
                             <div class="row row__height">
                                 <div class="col-5 centered__right">
-                                    <div class="center__logo">
+                                    <div class="image-">
                                         <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                                     </div>
                                 </div>
                                 <div class="col-7 p-0">
                                     <div class="button__align__center">
                                         <a href="https://shopee.co.id/habitsandco?categoryId=100011&entryPoint=ShopByPDP&itemId=25813601334&upstream=search">
-                                            <button type="button" class="btn btn-primary btn__left btn__size">
+                                            <button type="button" class="btn btn-grey btn__left btn__size">
                                                 <div class="row">
                                                     <div class="col-6">
                                                         Shopee
@@ -328,31 +327,29 @@
                                                 </div>
                                             </button>
                                         </a>
-
                                     </div>
                                 </div>
                             </div>
                             <div class="row row__height">
                                 <div class="col-5 centered__right">
-                                    <div class="center__logo">
+                                    <div class="">
                                         <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                                     </div>
                                 </div>
                                 <div class="col-7 p-0">
                                     <div class="button__align__center">
                                         <a href="https://www.tokopedia.com/habitsandco">
-                                            <button type="button" class="btn btn-primary btn__left btn__size">
+                                            <button type="button" class="btn btn-grey btn__left btn__size">
                                                 <div class="row">
-                                                    <div class="col">
+                                                    <div class="col-6">
                                                         Tokopedia
                                                     </div>
-                                                    <div class="col btn__right">
+                                                    <div class="col-6 btn__right">
                                                         <i class="fa-solid fa-arrow-right"></i>
                                                     </div>
                                                 </div>
                                             </button>
                                         </a>
-
                                     </div>
                                 </div>
                             </div>
@@ -397,16 +394,16 @@
                                 Tunggu apalagi, tambahkan koleksi outfit anda menjadi lebih bergaya. BUKAN kaos abal abal dengan kualitas murahan.
                             </p>
                         </div>
-                        <div class="row mt-8">
-                            <div class="col centered__shop">
-                                <p class="discount__shop">SHOP NOW!</p>
+                        <div class="row mt-8 flex__phone">
+                            <div class="col centered__shop wd__shopnow">
+                                <p class="material__shop">SHOP NOW!</p>
 
-                                <p class="font__8p">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
+                                <p class="desc__shopnow">Semua produk kami original dari Habits&Co selain dari kami itu palsu</p>
                             </div>
-                            <div class="col">
+                            <div class="col width__70">
                                 <div class="row row__height">
                                     <div class="col-5 centered__right">
-                                        <div class="center__logo">
+                                        <div class="image-">
                                             <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                                         </div>
                                     </div>
@@ -424,13 +421,12 @@
                                                     </div>
                                                 </button>
                                             </a>
-
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row row__height">
                                     <div class="col-5 centered__right">
-                                        <div class="center__logo">
+                                        <div class="">
                                             <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                                         </div>
                                     </div>
@@ -439,10 +435,10 @@
                                             <a href="https://www.tokopedia.com/habitsandco">
                                                 <button type="button" class="btn btn-grey btn__left btn__size">
                                                     <div class="row">
-                                                        <div class="col">
+                                                        <div class="col-6">
                                                             Tokopedia
                                                         </div>
-                                                        <div class="col btn__right">
+                                                        <div class="col-6 btn__right">
                                                             <i class="fa-solid fa-arrow-right"></i>
                                                         </div>
                                                     </div>
