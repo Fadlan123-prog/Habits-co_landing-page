@@ -451,12 +451,12 @@ li span {
 
     .material__content p:first-child{
         text-align: center;
-        font-size: 15px;
+        font-size: 19px;
         line-height: 20px;
     }
 
     .material__content p{
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .row__disable{
@@ -473,7 +473,7 @@ li span {
     }
 
     .desc__shopnow{
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .material__content .centered__right img{
@@ -519,6 +519,11 @@ li span {
         padding: 12px;
         width: -webkit-fill-available;
         margin: 10px;
+        font-size: 15px;
+    }
+
+    .phone__display .col-6 span > span{
+        font-weight: 700;
     }
 
 
@@ -527,12 +532,12 @@ li span {
     } */
 
     .display__gallery .display__title{
-        font-size: 15px;
-        line-height: 19px;
+        font-size: 21px;
+        line-height: 30px;
     }
 
     .display__gallery p{
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 2rem;
     }
 
@@ -550,7 +555,7 @@ li span {
     }
 
     .material__desc{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .center__logo img{
@@ -606,7 +611,7 @@ li span {
     }
 
     .original__text{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .mt-8{
@@ -646,7 +651,7 @@ li span {
     }
 
     .call__me{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .social__media{
