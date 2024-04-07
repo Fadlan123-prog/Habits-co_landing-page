@@ -230,8 +230,8 @@
                 <div class="col width__70">
                     <div class="row row__height">
                         <div class="col-5 centered__right">
-                            <div class="image-">
-                                <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
+                            <div class="image__ecommerce">
+                                <img src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                             </div>
                         </div>
                         <div class="col-7 p-0">
@@ -253,8 +253,8 @@
                     </div>
                     <div class="row row__height">
                         <div class="col-5 centered__right">
-                            <div class="">
-                                <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
+                            <div class="image__ecommerce">
+                                <img src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                             </div>
                         </div>
                         <div class="col-7 p-0">
@@ -309,7 +309,7 @@
                         <div class="col width__70">
                             <div class="row row__height">
                                 <div class="col-5 centered__right">
-                                    <div class="image-">
+                                    <div class="image__ecommerce">
                                         <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                                     </div>
                                 </div>
@@ -332,8 +332,8 @@
                             </div>
                             <div class="row row__height">
                                 <div class="col-5 centered__right">
-                                    <div class="">
-                                        <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
+                                    <div class="image__ecommerce">
+                                        <img src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                                     </div>
                                 </div>
                                 <div class="col-7 p-0">
@@ -403,8 +403,8 @@
                             <div class="col width__70">
                                 <div class="row row__height">
                                     <div class="col-5 centered__right">
-                                        <div class="image-">
-                                            <img class="" src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
+                                        <div class="image__ecommerce">
+                                            <img src="{{asset('assets/images/logo-shopee.png')}}" alt="Shopee">
                                         </div>
                                     </div>
                                     <div class="col-7 p-0">
@@ -426,7 +426,7 @@
                                 </div>
                                 <div class="row row__height">
                                     <div class="col-5 centered__right">
-                                        <div class="">
+                                        <div class="image__ecommerce">
                                             <img class="" src="{{asset('assets/images/logo-tokped.png')}}" alt="Tokopedia">
                                         </div>
                                     </div>

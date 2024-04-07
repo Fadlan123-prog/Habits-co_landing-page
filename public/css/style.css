@@ -565,6 +565,8 @@ li span {
         width: 100%;
     }
 
+
+
     .material__shop{
         font-size: 18px;
     }
@@ -804,6 +806,9 @@ li span {
 
     .centered__shop{
         margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .display__gallery .display__title{
@@ -902,6 +907,15 @@ li span {
 
     .sec__footer span{
         font-size: 18px;
+    }
+
+    .desc__shopnow{
+        font-size: 12px;
+    }
+
+    .image__ecommerce img{
+        width: 42px;
+        height: auto;
     }
 }
 
@@ -1009,6 +1023,10 @@ li span {
 
     li span{
         font-size: 2.8rem;
+    }
+
+    .desc__shopnow{
+        font-size: 13px;
     }
 
 }
