@@ -168,7 +168,7 @@
         </div>
     </section>
     <section>
-        <div class="container-fluid" data-aos="fade-up">
+        <div class="container" data-aos="fade-up">
             <div class="phone__display">
                 <div class="why__title">
                     <span>Kenapa<span><img src="{{asset('assets/images/Logo-no-bg.png')}}" alt="">?</span></span>

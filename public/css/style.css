@@ -1029,6 +1029,15 @@ li span {
         font-size: 13px;
     }
 
+    .display__gallery p{
+        margin-top: 1.4rem;
+        font-size: 16px;
+    }
+
+    .display__gallery .display__title{
+        font-size: 34px;
+    }
+
 }
 
 @media screen and (min-width:1029px) and (min-width:1440px){
@@ -1047,6 +1056,10 @@ li span {
 
     li span{
         font-size: 5rem;
+    }
+
+    .desc__shopnow{
+        font-size: 24px;
     }
 }
 
